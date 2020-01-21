@@ -1,0 +1,20 @@
+<resources>
+
+    <string name="app_name">AmalitechNews</string>
+    <string name="sign_up_bttn">Sign Up</string>
+    <string name="email">E-mail</string>
+    <string name="password">Password</string>
+    <string name="login">Login</string>
+    <string name="image">Image</string>
+    <string name="get_your_account_for_more_features">Get your account for more features</string>
+    <string name="trending">Trending</string>
+    <string name="my_posts">My Posts</string>
+    <string name="my_profile">My Profile</string>
+    <string name="dummy_headline">New Story Heading</string>
+    <string name="dummy_story_detail">ahofoqejoqijerqierjo jroqiejroiqejrpoiqjerpi qjeprihqpeirhqpeiurhpqoierhpoq ijerpoqijerpio qjpeorijqpoeirjpoq eij</string>
+	<string name="new_post">New Post</string>
+    <string name="cancel">Cancel</string>
+
+
+
+</resources>
