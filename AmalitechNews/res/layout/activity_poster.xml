@@ -18,19 +18,23 @@
     <include
         android:id="@+id/app_header_id"
         layout="@layout/app_header"/>
-
+    
+	 <!-- A -->
     <RelativeLayout
+        android:id="@+id/activity_inputer_parent_id"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:background="#90000000">
+        android:background="#90000000"
+ 		android:visibility="gone">
 
+        <!-- B -->
         <RelativeLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:layout_margin="10dp">
 
             <include
-                android:id="@+id/activity_inputer_parent_id"
+                android:id="@+id/activity_inputer_id"
                 layout="@layout/input_layout"/>
         </RelativeLayout>
     </RelativeLayout>

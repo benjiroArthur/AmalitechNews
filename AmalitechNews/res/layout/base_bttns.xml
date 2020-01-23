@@ -15,8 +15,7 @@
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
         android:layout_marginBottom="10dp"
-        android:layout_weight="0.5"
-        android:text="@string/new_post"/>
+        android:layout_weight="0.5"/>
 
     <Button
         android:id="@+id/base_bttn_1"
@@ -25,8 +24,7 @@
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
         android:layout_marginBottom="10dp"
-        android:text="@string/cancel"
         android:layout_weight="0.5"
-        android:visibility="visible"/>
+        android:visibility="gone"/>
     
 </LinearLayout>

@@ -3,7 +3,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
-    <include
+     <include
         android:id="@+id/base_bttns_parent_id"
         layout="@layout/base_bttns"/>
 
@@ -14,6 +14,7 @@
         android:layout_alignLeft="@+id/bttn_get_acc"
         android:layout_below="@+id/app_header_id"
         android:layout_marginLeft="21dp"
+        android:layout_marginStart="21dp"
         android:layout_marginTop="38dp"
         android:text="@string/dummy_headline"/>
     

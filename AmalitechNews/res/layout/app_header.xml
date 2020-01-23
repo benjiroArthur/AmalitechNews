@@ -1,19 +1,162 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:id="@+id/app_header_id"
     android:layout_width="match_parent"
-    android:layout_height="wrap_content">
+    android:layout_height="wrap_content"
+    android:background="#00cc00"
+    android:baselineAligned="false">
     
+     <!-- This is the navigation tab at the far
+    most left 
+    android:layout_toLeftOf="@+id/nav_rl_1"
+    android:layout_alignParentTop="true"
+    android:layout_centerVertical="true"
+    -->
+    
+    <RelativeLayout
+        android:id="@+id/nav_rl_0"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:layout_weight="0.3"
+        android:background="#6FCEFA">
+        
     <TextView
         android:id="@+id/tab_0"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignParentTop="true"
-        android:layout_toLeftOf="@+id/tab_1"
         android:layout_marginRight="20dp"
         android:layout_marginTop="16dp"
-        android:text="@string/trending"/>
+        android:layout_centerHorizontal="true"
+        android:text="@string/trending"
+        android:maxLines="1"
+        android:maxEms="4"/>
     
+    <View
+           android:id="@+id/nav_v_0"
+           android:layout_height="4dp"
+           android:layout_width="match_parent"
+           android:layout_below="@+id/tab_0"
+           android:layout_centerHorizontal="true"
+           android:background="#e8ffc4"
+           android:layout_marginTop="11dp"
+           android:layout_marginLeft="4dp"
+           android:layout_marginRight="4dp" />
+    
+    <TextView
+           android:id="@+id/tab_tv_0"
+           android:layout_width="wrap_content"
+           android:layout_height="32dp"
+           android:layout_alignParentTop="true"
+           android:layout_alignParentRight="true"
+           android:layout_marginRight="5dp"
+           android:layout_marginTop="5dp"
+           android:maxLines="1"
+           android:maxEms="4"
+           android:text="99K"
+           android:textColor="#000000"
+           />
+        
+    </RelativeLayout>
+    
+    <!-- This is the navigation tab in the middle -->
+    
+    <RelativeLayout
+        android:id="@+id/nav_rl_1"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:layout_weight="0.3"
+        android:background="#6FCEFA">
+        
+       <TextView
+        android:id="@+id/tab_1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="16dp"
+        android:layout_centerHorizontal="true"
+        android:text="@string/my_posts"
+        android:maxLines="1"
+           android:maxEms="4"/>
+       
+       <View
+           android:layout_height="4dp"
+           android:id="@+id/nav_v_1"
+           android:layout_width="match_parent"
+           android:layout_below="@+id/tab_1"
+           android:layout_centerHorizontal="true"
+           android:background="#e8ffc4"
+           android:layout_marginTop="11dp"
+           android:layout_marginLeft="4dp"
+           android:layout_marginRight="4dp"
+           />
+       
+       <TextView
+           android:id="@+id/tab_tv_1"
+           android:layout_width="wrap_content"
+           android:layout_height="32dp"
+           android:layout_alignParentTop="true"
+           android:layout_alignParentRight="true"
+           android:layout_marginRight="5dp"
+           android:layout_marginTop="5dp"
+           android:maxLines="1"
+           android:maxEms="4"
+           android:text="99K"
+           android:textColor="#000000"
+           />
+        
+    </RelativeLayout>
+    
+    <!-- This is the navigation tab at the far
+    most right -->
+    <RelativeLayout
+        android:id="@+id/nav_rl_2"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:layout_weight="0.3"
+        android:background="#6FCEFA">
+        
+       <TextView
+        android:id="@+id/tab_2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="16dp"
+        android:layout_centerHorizontal="true"
+        android:text="@string/trending"
+        android:maxLines="1"
+           android:maxEms="4"/>
+       
+       <View
+           android:layout_height="4dp"
+           android:id="@+id/nav_v_2"
+           android:layout_width="match_parent"
+           android:layout_below="@+id/tab_2"
+           android:layout_centerHorizontal="true"
+           android:background="#e8ffc4"
+           android:layout_marginTop="11dp"
+           android:layout_marginLeft="4dp"
+           android:layout_marginRight="4dp"
+           />
+       
+       <TextView
+           android:id="@+id/tab_tv_2"
+           android:layout_width="wrap_content"
+           android:layout_height="32dp"
+           android:layout_alignParentTop="true"
+           android:layout_alignParentRight="true"
+           android:layout_alignParentEnd="true"
+           android:layout_marginRight="5dp"
+           android:layout_marginEnd="5dp"
+           android:layout_marginTop="5dp"
+           android:maxLines="1"
+           android:maxEms="4"
+           android:text="99K"
+           android:textColor="#000000"
+           />
+        
+    </RelativeLayout>
+    
+    <!--  
     <TextView
         android:id="@+id/tab_1"
         android:layout_width="wrap_content"
@@ -32,5 +175,5 @@
         android:layout_marginLeft="20dp"
         android:layout_marginTop="16dp"
         android:text="@string/my_profile"/>
-
-</RelativeLayout>
+-->
+</LinearLayout>

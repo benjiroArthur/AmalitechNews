@@ -15,15 +15,17 @@
         android:id="@+id/sv_r_0"
         android:layout_width="match_parent"
         android:layout_height="wrap_content">
-    
-    <ImageView
+        
+        <ImageView
         android:id="@+id/iv_img"
         android:layout_width="120dp"
         android:layout_height="120dp"
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="80dp"
-        android:src="@android:drawable/ic_input_add"/>
+        android:src="@drawable/ic_launch" />
+    
+   
 
     <EditText
         android:id="@+id/et_email"
@@ -76,6 +78,7 @@
         android:text="@string/sign_up_bttn"/>
 
     
+    
     </RelativeLayout>
     </ScrollView>
     
@@ -85,6 +88,8 @@
         android:layout_height="48dp"
         android:layout_alignParentTop="true"
         android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:contentDescription="@string/close"
         android:src="@android:drawable/ic_delete"/>
     
     
