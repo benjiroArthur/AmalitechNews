@@ -49,6 +49,7 @@ public final class R {
         public static final int tab_tv_0=0x7f060008;
         public static final int tab_tv_1=0x7f06000c;
         public static final int tab_tv_2=0x7f060010;
+        public static final int textView1=0x7f06001e;
     }
     public static final class layout {
         public static final int activity_poster=0x7f030000;
@@ -56,15 +57,18 @@ public final class R {
         public static final int base_bttns=0x7f030002;
         public static final int input_layout=0x7f030003;
         public static final int main_news_page_layout=0x7f030004;
+        public static final int profile_layout=0x7f030005;
     }
     public static final class string {
         public static final int app_name=0x7f040000;
         public static final int cancel=0x7f04000d;
+        public static final int close=0x7f04000e;
         public static final int dummy_headline=0x7f04000a;
         public static final int dummy_story_detail=0x7f04000b;
         public static final int email=0x7f040002;
         public static final int get_your_account_for_more_features=0x7f040006;
         public static final int image=0x7f040005;
+        public static final int like=0x7f04000f;
         public static final int login=0x7f040004;
         public static final int my_posts=0x7f040008;
         public static final int my_profile=0x7f040009;

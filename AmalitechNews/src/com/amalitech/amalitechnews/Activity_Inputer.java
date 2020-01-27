@@ -84,6 +84,8 @@ public class Activity_Inputer extends Activity {
 		
 	}
 	
+	
+	
 	int et_mail_min_lnf = 8, et_mail_max_lnf=45,
 			et_pswd_min_lnf = 8, et_pswd_max_lnf=32;
 	
